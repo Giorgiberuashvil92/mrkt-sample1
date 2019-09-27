@@ -1,0 +1,256 @@
+body {
+    background-color: white;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navDivChild1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navDivChild1:first-child {
+    color: #878787;
+}
+
+.tagSecondh1 {
+    color: black;
+}
+
+.navDivChild2 img {
+    object-fit: contain;
+    width: 63px;
+    height: 24px;
+}
+
+.navDivChild3 img {
+    object-fit: contain;
+    width: 20px;
+    height: 19px;
+}
+
+.navDivChild3:last-child {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+.navDivChild1 h1 {
+    font-size: 15pt;
+    font-family: "Avenir LT Std"
+}
+
+.tagSecondh1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ClothingMini1 h2 {
+    font-size: 10pt;
+    color: #878787;
+    font-family: "Avenir LT Std"
+}
+
+.ClothingMini1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.navDivChild2 {
+    margin-right: 7%;
+}
+
+.navBar h1 {
+    font-family: "Avenir LT Std";
+    font-size: 20pt;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 53px;
+    font-family: "Avenir LT Std";
+    cursor: pointer;
+}
+
+.Range h1 {
+    font-family: "Avenir LT Std";
+    font-size: 15pt;
+}
+
+.circlediv1 {
+    background-color: black;
+    width: 12px;
+    height: 12px;
+}
+
+.priceRange {
+    display: flex;
+    margin-right: 3%;
+}
+
+.emptyDiv {
+    display: flex;
+    align-items: center;
+}
+
+.priceRange2 {
+    margin-left: 5%;
+}
+
+.Range {
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+}
+
+.price-title {
+    margin-right: 10px;
+}
+
+.emptydiv1 {
+    position: absolute;
+}
+
+.emptydiv1 {
+    width: 464px;
+    height: 1px;
+    background-color: #9a9a9a;
+}
+
+.circlediv2 {
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    margin-left: 400px;
+}
+
+.circlediv1 {
+    margin-left: 20px;
+    position: relative;
+    z-index: +1;
+}
+
+.product-item-1 {
+    width: 200px;
+    margin-top: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product {
+    display: flex;
+}
+
+.photo1 {
+    margin-top: 37%;
+}
+
+.product-item-1 p {
+    font-family: "Avenir LT Std";
+}
+
+.red {
+    margin-top: 30%;
+}
+
+#output {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Avenir LT Std";
+}
+
+#output li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output1 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Avenir LT Std";
+}
+
+#output2 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 3%;
+    font-family: "Avenir LT Std";
+}
+
+#output2 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output3 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#output4 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around
+}
+
+.mainDiv {
+    margin-left: 1%;
+}
+
+#slider {
+    margin-top: 5%;
+}
+
+.noUi-connect {
+    background: black;
+}
+
+#slider noUi-connect {
+    background: black;
+}
+
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
